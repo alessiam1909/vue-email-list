@@ -23,6 +23,12 @@ body{
     border-radius: 20px;
 }
 
+h1{
+    color: #ac7ae6;
+    padding: 20px 0;
+    text-align: center;
+}
+
 ul{
     list-style-type: none;
     text-align: center;

@@ -10,8 +10,9 @@
     </head>
     <body>
         <div class="container" id="app">
+            <h1>Generatore di 10 email casuali:</h1>
             <ul>
-                <li v-for="(item, index) in emailList">
+                <li v-for="(item, index) in emailList" v-if="emailList.length == 10">
                     {{emailList[index]}}
                 </li>
             </ul>
